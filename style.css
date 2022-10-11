@@ -1,0 +1,146 @@
+html {
+  background-color: rgb(176,196,222);
+}
+
+#logo {
+  margin: 0px;
+}
+
+#logocircle {
+  position: absolute;
+  z-index: 2;
+  top: 3px;
+  width: 80px;
+  height: 10px;
+  background-color: rgb(105,105,105);
+  border-radius: 50%;
+}
+
+#logocylinder {
+  position: absolute;
+  z-index: 1;
+  top: auto;
+  bottom:auto;
+  left:auto;
+  right:auto;
+  width: 80px;
+  height: 120px;
+  background-color: rgb(255,215,0);
+}
+
+#logobottomcircle {
+  position: absolute;
+  bottom: 688px;
+  width: 80px;
+  height: 10px;
+  background-color: rgb(355,215,0);
+  border-radius: 50%;
+}
+
+#logofilmroll {
+  position: absolute;
+  left: 88px;
+  bottom: 700px;
+  top: 20px;
+  width: 350px;
+  height: 100px;
+}
+
+#slide {
+  width: 350px;
+  height: 100px;
+}
+
+#film {
+  width: 350px;
+  height: 100px;
+  animation: horizontal 3s ease-in-out infinite;
+  overflow: hidden;
+}
+
+@keyframes horizontal {
+  0% {
+    margin-left: 0px;
+  }
+  50% {
+    margin-left: -70px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+
+#box {
+  position: absolute;
+  top: 500px;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%,-50%);
+  width: 800px;
+  height: 500px;
+  background-color: black;
+}
+
+#shutterbutton {
+  position: absolute;
+  top: 215px;
+  left: 70%;
+  right: auto;
+  transform: translate(-50%,-50%);
+  width: 100px;
+  height: 70px;
+  background-color: rgb(47,79,79);
+}
+
+#lens1 {
+  position: absolute;
+  top: 500px;
+  left: 730px;
+  right: auto;
+  transform: translate(-50%,-50%);
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+#lens2 {
+  position: absolute;
+  top: 500px;
+  left: 730px;
+  right: auto;
+  transform: translate(-50%,-50%);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+#arrow {
+	  position: absolute;
+    top: 150px;
+    left: 990px;
+	  display: inline-block;
+	  width: 0;
+	  height: 0;
+	  border-left: 10px solid transparent;
+	  border-right: 10px solid transparent;
+	  border-bottom: 10px solid transparent;
+	  border-top: 10px solid rgb(178,34,34);
+	  margin-top: 10px;
+	  margin-left: 10px;
+	  animation: vertical 1s ease-in-out infinite;
+	}
+
+  @keyframes vertical {
+    0% {
+      margin-top: 5px;
+    }
+    50% {
+      margin-top: 15px;
+    }
+    100% {
+      margin-top: 5px;
+    }
+  }
