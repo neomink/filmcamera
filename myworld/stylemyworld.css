@@ -77,6 +77,7 @@ html {
   padding-bottom: 30px;
 }
 
+
 #e2 {
   position: absolute;
   top: 316px;
@@ -120,6 +121,54 @@ html {
 #h5 {
   position:absolute;
   top: 876px;
+  right: 75px;
+  width: 400px;
+  height: 268px;
+}
+
+#d1 {
+  position:absolute;
+  top: 1436px;
+  right: 965px;
+  width: 400px;
+  height: 268px;
+}
+
+#d2 {
+  position:absolute;
+  top: 1436px;
+  right: 523px;
+  width: 400px;
+  height: 268px;
+}
+
+#d3 {
+  position:absolute;
+  top: 1436px;
+  right: 75px;
+  width: 400px;
+  height: 268px;
+}
+
+#s1 {
+  position:absolute;
+  top: 1996px;
+  right: 965px;
+  width: 400px;
+  height: 268px;
+}
+
+#s2 {
+  position:absolute;
+  top: 1996px;
+  right: 523px;
+  width: 400px;
+  height: 268px;
+}
+
+#s3 {
+  position:absolute;
+  top: 1996px;
   right: 75px;
   width: 400px;
   height: 268px;

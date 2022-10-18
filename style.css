@@ -54,7 +54,6 @@ html {
   width: 350px;
   height: 100px;
   animation: horizontal 3s ease-in-out infinite;
-  overflow: hidden;
 }
 
 @keyframes horizontal {
