@@ -1,0 +1,126 @@
+html {
+  background-color: rgb(176,196,222);
+}
+
+#logo {
+  display: block;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#logocircle {
+  position: absolute;
+  z-index: 2;
+  top: 3px;
+  width: 80px;
+  height: 10px;
+  background-color: rgb(105,105,105);
+  border-radius: 50%;
+}
+
+#logocylinder {
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  bottom:auto;
+  left:auto;
+  right:auto;
+  width: 80px;
+  height: 120px;
+  background-color: rgb(255,215,0);
+}
+
+#logobottomcircle {
+  position: absolute;
+  left: 0px;
+  top: 125;
+  width: 80px;
+  height: 10px;
+  background-color: rgb(355,215,0);
+  border-radius: 50%;
+}
+
+#logofilmroll {
+  position: absolute;
+  left: 80px;
+  bottom: 700px;
+  top: 20px;
+  width: 350px;
+  height: 100px;
+}
+
+#film {
+  width: 350px;
+  height: 100px;
+  animation: horizontal 3s ease-in-out infinite;
+  overflow: hidden;
+}
+
+@keyframes horizontal {
+  0% {
+    margin-left: 0px;
+  }
+  50% {
+    margin-left: -70px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+.background {
+  position: relative;
+  top: 150px;
+  width: 1400px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#e2 {
+  position: absolute;
+  top: 316px;
+  right: 965px;
+  width: 400px;
+  height: 268px;
+}
+
+#e3 {
+  position: absolute;
+  top: 316px;
+  right: 523px;
+  width: 400px;
+  height: 268px;
+}
+
+#e7 {
+  position: absolute;
+  top: 316px;
+  right: 75px;
+  width: 400px;
+  height: 268px;
+}
+
+#h2 {
+  position:absolute;
+  top: 876px;
+  right: 965px;
+  width: 400px;
+  height: 268px;
+}
+
+#h4 {
+  position:absolute;
+  top: 876px;
+  right: 523px;
+  width: 400px;
+  height: 268px;
+}
+
+#h5 {
+  position:absolute;
+  top: 876px;
+  right: 75px;
+  width: 400px;
+  height: 268px;
+}

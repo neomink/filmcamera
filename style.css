@@ -72,8 +72,8 @@ html {
 #box {
   position: absolute;
   top: 500px;
-  left: 50%;
-  right: 50%;
+  left: 720px;
+  right: 720px;
   transform: translate(-50%,-50%);
   width: 800px;
   height: 500px;
@@ -83,8 +83,7 @@ html {
 #shutterbutton {
   position: absolute;
   top: 215px;
-  left: 70%;
-  right: auto;
+  left: 1000px;
   transform: translate(-50%,-50%);
   width: 100px;
   height: 70px;
@@ -145,7 +144,7 @@ html {
 #arrow {
 	  position: absolute;
     top: 150px;
-    left: 990px;
+    left: 980px;
 	  display: inline-block;
 	  width: 0;
 	  height: 0;
@@ -178,3 +177,9 @@ html {
       margin-top: 5px;
     }
   }
+
+@media(max-width:1120px){
+  html {
+    display: none;
+  }
+}
