@@ -1,0 +1,19 @@
+html {
+  background-color: white;
+}
+
+.images {
+  display: inline;
+  width: 33%;
+  height: auto;
+}
+
+.box {
+  /* display: block; */
+  width: 500px;
+  /* backgound-color: gray; */
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+
+}

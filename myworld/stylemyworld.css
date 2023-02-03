@@ -84,6 +84,26 @@ html {
   right: 965px;
   width: 400px;
   height: 268px;
+  z-index: 2;
+  transition: all 1s ease-out;
+}
+
+#e2text {
+  position: absolute;
+  top: 316px;
+  right: 965px;
+  width: 400px;
+  height: 268px;
+  font-size: 12pt;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#e2:hover {
+  opacity:0;
 }
 
 #e3 {
@@ -92,6 +112,22 @@ html {
   right: 523px;
   width: 400px;
   height: 268px;
+  z-index: 2;
+  transition: all 1s ease-out;
+}
+
+#e3text {
+  position: absolute;
+  top: 316px;
+  right: 523px;
+  width: 400px;
+  height: 268px;
+  font-size: 12pt;
+  z-index: 1;
+}
+
+#e3:hover {
+  opacity:0;
 }
 
 #e7 {

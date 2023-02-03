@@ -2,9 +2,15 @@ html {
   background-color: rgb(176,196,222);
 }
 
+video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 #logo {
   display: block;
-  position: relative;
+  position: absolute;
   margin-top: 20px;
   margin-left: 20px;
 }
